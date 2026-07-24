@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="鶏の唐揚げの自己紹介なんダゾ☆">
+        <title>TORINIKU_kali</title>
+
+        <link rel="precontent" href="https://unpkg.com/ress/dist/ress.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+        <style>
+
+            .dotgothic16-regular {
+                font-family: "DotGothic16", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+
+            html {
+                font-family: "DotGothic16", sans-serif;
+            }
+
+            header {
+                background-color: #fff;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>TORINIKU_kali</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#AboutMe">自己紹介</a></li>
+                        <li><a href="#SNS">SNS</a></li>
+                        <li><a href="#Contact">連絡</a></li>
+                    </ul>
+                </nav>
+            <hr>
+        </header>
+
+        <main>
+            <h2 id="AboutMe">自己紹介</h2>
+            <h2 id="SNS">SNS</h2>
+                <a href="https://x.com/TORINIKU_kali" target="_blank" >X</a>
+                <a href="https://note.com/toriniku_kali" target="_blank" >note</a>
+                <a href="https://www.youtube.com/@TORINIKU_kali" target="_blank" >YouTube</a>
+                <a href="https://scratch.mit.edu/users/TORINIKU_kali/" target="_blank" >Scratch</a>
+                <a href="https://marshmallow-qa.com/6s2f0grvaxjeb7x" target="_blank" >マシュマロ</a>
+            <h2 id="Contact">連絡</h2>
+                <a id="mailLink" href="#" target="_blank" class="mail-link" >
+                    Gmailでメールを作成する
+                </a>
+          
+                <script>
+                    const recipient = "19e2086.torutoru@gmail.com";
+                    const subject = "お問い合わせ";
+                    const bodyText = "チャット総合からのお問い合わせ\n\n\n名前 : \n要件 : \n";
+
+                    const encodedRecipient = encodeURIComponent(recipient);
+                    const encodedSubject = encodeURIComponent(subject);
+                    const encodedBody = encodeURIComponent(bodyText);
+        
+                    const gmailComposeURL = 
+                        `https://mail.google.com/mail/u/0/?view=cm&fs=1` +
+                        `&to=${encodedRecipient}` +
+                        `&su=${encodedSubject}` +
+                        `&body=${encodedBody}`;
+
+                    document.getElementById('mailLink').href = gmailComposeURL;
+            </script>
+        </main>
+
+        <footer>
+            <hr>
+            <small>&copy; 2026 TORINIKU_kali</small>
+        </footer>
+    </body>
+</html>

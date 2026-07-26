@@ -15,3 +15,11 @@ header {
     top: 0;
     z-index: 1000;
 }
+
+main {
+    background-color: #eee;
+}
+
+footer {
+    background-color: #fff;
+}

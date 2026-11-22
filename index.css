@@ -7,6 +7,7 @@
 
 html {
     font-family: "Zen Karu Gothic", sans-serif;
+    font-size: 100%;
     scroll-padding-top: 30%;
     line-height: .5;
 }
@@ -30,6 +31,9 @@ footer {
     background-color: #eee;
 }
 
+a {
+    text-decoration: none;
+}
 
 /*DarkMode*/
 

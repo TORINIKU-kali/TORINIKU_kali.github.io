@@ -1,13 +1,14 @@
-.dotgothic16-regular {
-    font-family: "DotGothic16", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.zen-maru-gothic-regular {
+  font-family: "Zen Karu Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 html {
-    font-family: "DotGothic16", sans-serif;
-     scroll-padding-top: 200px;
+    font-family: "Zen Karu Gothic", sans-serif;
+    scroll-padding-top: 40%;
+    line-height: .5;
 }
 
 header {
@@ -21,6 +22,43 @@ main {
     background-color: #eee;
 }
 
+table {
+    border-spacing: 0;
+}
+
 footer {
     background-color: #eee;
+}
+
+
+/*DarkMode*/
+
+.darkMode {
+    background-color: #222;
+    color: #ccc;
+}
+
+.darkMode header {
+    background-color: #000;
+    color: #ccc;
+}
+
+.darkMode main {
+    background-color: #000;
+    color: #ccc;
+}
+
+.darkMode footer {
+    background-color: #000;
+    color: #ccc;
+}
+
+.darkMode table {
+    background-color: #000;
+    color: #ccc;
+}
+
+.darkMode a{
+    background-color: #000;
+    color: #3caa;
 }

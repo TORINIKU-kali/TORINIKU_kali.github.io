@@ -9,7 +9,8 @@ html {
     font-family: "Zen Karu Gothic", sans-serif;
     font-size: 100%;
     scroll-padding-top: 30%;
-    line-height: .5;
+    line-height: 1;
+    color: #000;
 }
 
 header {
@@ -29,10 +30,15 @@ table {
 
 footer {
     background-color: #eee;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
+}
+
+footer  a {
+    color: #333;
 }
 
 /*DarkMode*/
@@ -58,11 +64,13 @@ a {
 }
 
 .darkMode table {
-    background-color: #000;
     color: #ccc;
 }
 
 .darkMode a{
-    background-color: #000;
     color: #5cb;
+}
+
+.darkMode footer a{
+    color: #999;
 }
